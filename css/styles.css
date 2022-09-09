@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width:1140px;
+    max-width:100%;
+    margin:auto;
+    padding: 20px 0;
+
+}
+nav{
+    width: 100%;
+    padding:15px 0;
+    background: rgb(23,26,33);
+background: linear-gradient(90deg, rgba(23,26,33,1) 0%, rgba(23,26,33,1) 33%, rgba(102,192,244,1) 100%);
+    float:left;
+}
+p{
+    text-align:justify;
+}
+
+nav h1{
+    float:left;
+}
+
+nav ul{
+    float:right;
+}
+nav ul li{
+    list-style:none;
+    display:inline;
+    float:left;
+    padding: 35px 15px;
+}
+nav ul li a{
+    background-color:#66c0f4;
+    color:white;
+    padding:15px;
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+nav ul li a:hover{
+    background-color:purple;
+    color:palevioletred;
+}
+
+#logo {
+    width: 150px;
+}
+
+header{
+    background: rgb(23,26,33);
+background: linear-gradient(0deg, rgba(23,26,33,1) 0%, rgba(33,47,59,1) 16%, rgba(102,192,244,1) 100%);
+}
+
+header img{
+    width:100%;
+    border:4px solid #2a475e;
+    height: 250px;
+    object-fit: cover;
+    object-position:center;
+}
+
+.clearfix{
+    overflow:auto;
+}
+
+.clearfix::after{
+    content:"";
+    clear:both;
+    display:table;
+}
+/*Grade de Colunas*/
+.col-1 {width:8.33%;}
+.col-2 {width:16.66%;}
+.col-3 {width:25%;}
+.col-3v2{width:25%;}
+.col-3v3{width:25%;}
+.col-4 {width:33.33%;}
+.col-5 {width:41.66%;}
+.col-6 {width:50%;}
+.col-7 {width:58.33%;}
+.col-8 {width:66.66%;}
+.col-9 {width:75%;}
+.col-10{width:83.33%;}
+.col-11{width:91.66%;}
+.col-12{width:100%;}
+
+[class*="col-"] {
+    float:left;
+    padding:15px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+img{
+    width:100%;
+}
+
+h3{
+    margin:10px 0;
+}
+main{
+    background-color: #1b2838;
+    color:white;
+    
+}
+.center{
+    text-align:center;
+}
+
+footer{
+    background: rgb(23,26,33);
+    background: linear-gradient(0deg, rgba(23,26,33,1) 0%, rgba(33,47,59,1) 16%, rgba(102,192,244,1) 100%);
+    font-weight:bold;
+    color:white;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+input[type="text"],
+input[type="email"],
+textarea{
+    width:100%;
+    padding:4px;
+    margin-bottom:6px;
+    border: 1px solid #66c0f4;
+    outline:none;
+    resize:none;
+}
+ input[type="text"],
+ input [type="email"],
+ textarea:focus{
+    background-color:rgb(236, 234, 234);
+ }   
+
+ form{
+    padding:10px;
+ }
+
+
+ .col-3v2 h1 a{
+    text-decoration: none;
+    font-size:20px;
+    color: aliceblue;
+ }
+
+.col-3v2 img:hover{
+    border: 4px solid #66c0f4;
+ }
+
+#xboxpreço{
+    font-size: xx-large;
+    text-align: center;
+    background-color: #66c0f4;
+}
+ 
+form{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#video{
+    margin-left: auto;
+    margin-right: auto;
+}
